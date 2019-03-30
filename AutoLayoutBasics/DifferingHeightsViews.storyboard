@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EW0-sk-Wv0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1bT-1p-Ejz">
+            <objects>
+                <viewController id="EW0-sk-Wv0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hCn-jy-F7R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktX-ri-8sb">
+                                <rect key="frame" x="8" y="28" width="175.5" height="631"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBR-80-Slu">
+                                <rect key="frame" x="191.5" y="28" width="175.5" height="473.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Vm-au-zXQ">
+                                <rect key="frame" x="191.5" y="509.5" width="175.5" height="149.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DBR-80-Slu" firstAttribute="top" secondItem="ktX-ri-8sb" secondAttribute="top" id="2k6-02-BXb"/>
+                            <constraint firstItem="2Vm-au-zXQ" firstAttribute="trailing" secondItem="DBR-80-Slu" secondAttribute="trailing" id="BYB-4n-GXJ"/>
+                            <constraint firstItem="DBR-80-Slu" firstAttribute="height" secondItem="ktX-ri-8sb" secondAttribute="height" multiplier="3/4" id="MFV-oC-wNw"/>
+                            <constraint firstItem="2Vm-au-zXQ" firstAttribute="top" secondItem="DBR-80-Slu" secondAttribute="bottom" constant="8" id="RS2-Er-iDD"/>
+                            <constraint firstItem="ktX-ri-8sb" firstAttribute="leading" secondItem="pXz-dg-g5W" secondAttribute="leading" constant="8" id="SLL-S9-sja"/>
+                            <constraint firstItem="pXz-dg-g5W" firstAttribute="trailing" secondItem="DBR-80-Slu" secondAttribute="trailing" constant="8" id="bWs-bE-ORa"/>
+                            <constraint firstItem="pXz-dg-g5W" firstAttribute="bottom" secondItem="ktX-ri-8sb" secondAttribute="bottom" constant="8" id="dYG-aU-9Lr"/>
+                            <constraint firstItem="DBR-80-Slu" firstAttribute="leading" secondItem="ktX-ri-8sb" secondAttribute="trailing" constant="8" id="jxa-wm-sy3"/>
+                            <constraint firstItem="DBR-80-Slu" firstAttribute="width" secondItem="ktX-ri-8sb" secondAttribute="width" id="kjA-Qc-CII"/>
+                            <constraint firstItem="2Vm-au-zXQ" firstAttribute="leading" secondItem="DBR-80-Slu" secondAttribute="leading" id="mxo-r8-VhR"/>
+                            <constraint firstItem="ktX-ri-8sb" firstAttribute="top" secondItem="pXz-dg-g5W" secondAttribute="top" constant="8" id="wTo-Kc-kyb"/>
+                            <constraint firstItem="2Vm-au-zXQ" firstAttribute="bottom" secondItem="ktX-ri-8sb" secondAttribute="bottom" id="xrN-w2-fQb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pXz-dg-g5W"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEU-oI-Mev" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>
