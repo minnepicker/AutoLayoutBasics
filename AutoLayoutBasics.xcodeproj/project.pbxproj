@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00AB0D522500B4E004E6D05 /* ComplexWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00AB0D422500B4E004E6D05 /* ComplexWidthViews.storyboard */; };
+		C00AB0D722502AB0004E6D05 /* IntrinsicContentSize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00AB0D622502AB0004E6D05 /* IntrinsicContentSize.storyboard */; };
 		C0A0F5E3224E86AC00D353C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5E2224E86AC00D353C9 /* AppDelegate.swift */; };
 		C0A0F5E5224E86AC00D353C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5E4224E86AC00D353C9 /* ViewController.swift */; };
 		C0A0F5E8224E86AC00D353C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5E6224E86AC00D353C9 /* Main.storyboard */; };
@@ -15,9 +17,13 @@
 		C0A0F5F5224E90DD00D353C9 /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5F4224E90DD00D353C9 /* LayoutGuides.storyboard */; };
 		C0A0F5F7224E9B4900D353C9 /* EqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5F6224E9B4900D353C9 /* EqualWidthViews.storyboard */; };
 		C0A0F5F9224E9DF500D353C9 /* DifferingHeightsViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */; };
+		C0B5C16722500626001889BF /* Inequalities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B5C16622500626001889BF /* Inequalities.storyboard */; };
+		C0E9AA2222529621008E8BE2 /* Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E9AA2122529621008E8BE2 /* Form.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00AB0D422500B4E004E6D05 /* ComplexWidthViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ComplexWidthViews.storyboard; sourceTree = "<group>"; };
+		C00AB0D622502AB0004E6D05 /* IntrinsicContentSize.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntrinsicContentSize.storyboard; sourceTree = "<group>"; };
 		C0A0F5DF224E86AC00D353C9 /* AutoLayoutBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A0F5E2224E86AC00D353C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A0F5E4224E86AC00D353C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +34,8 @@
 		C0A0F5F4224E90DD00D353C9 /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
 		C0A0F5F6224E9B4900D353C9 /* EqualWidthViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EqualWidthViews.storyboard; sourceTree = "<group>"; };
 		C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DifferingHeightsViews.storyboard; sourceTree = "<group>"; };
+		C0B5C16622500626001889BF /* Inequalities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inequalities.storyboard; sourceTree = "<group>"; };
+		C0E9AA2122529621008E8BE2 /* Form.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Form.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +73,14 @@
 				C0A0F5E6224E86AC00D353C9 /* Main.storyboard */,
 				C0A0F5F4224E90DD00D353C9 /* LayoutGuides.storyboard */,
 				C0A0F5F6224E9B4900D353C9 /* EqualWidthViews.storyboard */,
+				C0E9AA2122529621008E8BE2 /* Form.storyboard */,
 				C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */,
 				C0A0F5E9224E86AE00D353C9 /* Assets.xcassets */,
 				C0A0F5EB224E86AE00D353C9 /* LaunchScreen.storyboard */,
 				C0A0F5EE224E86AE00D353C9 /* Info.plist */,
+				C0B5C16622500626001889BF /* Inequalities.storyboard */,
+				C00AB0D422500B4E004E6D05 /* ComplexWidthViews.storyboard */,
+				C00AB0D622502AB0004E6D05 /* IntrinsicContentSize.storyboard */,
 			);
 			path = AutoLayoutBasics;
 			sourceTree = "<group>";
@@ -132,9 +144,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A0F5ED224E86AE00D353C9 /* LaunchScreen.storyboard in Resources */,
+				C00AB0D522500B4E004E6D05 /* ComplexWidthViews.storyboard in Resources */,
 				C0A0F5F5224E90DD00D353C9 /* LayoutGuides.storyboard in Resources */,
 				C0A0F5F9224E9DF500D353C9 /* DifferingHeightsViews.storyboard in Resources */,
+				C00AB0D722502AB0004E6D05 /* IntrinsicContentSize.storyboard in Resources */,
 				C0A0F5F7224E9B4900D353C9 /* EqualWidthViews.storyboard in Resources */,
+				C0E9AA2222529621008E8BE2 /* Form.storyboard in Resources */,
+				C0B5C16722500626001889BF /* Inequalities.storyboard in Resources */,
 				C0A0F5EA224E86AE00D353C9 /* Assets.xcassets in Resources */,
 				C0A0F5E8224E86AC00D353C9 /* Main.storyboard in Resources */,
 			);

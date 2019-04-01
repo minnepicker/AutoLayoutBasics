@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vcX-qp-5Th">
+            <objects>
+                <viewController id="bpT-zK-xCA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0V2-yk-P6O">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKb-8t-lMa">
+                                <rect key="frame" x="8" y="8" width="214.5" height="359"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="vft-8B-tyk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngt-xm-VIc">
+                                <rect key="frame" x="230.5" y="8" width="428.5" height="359"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ngt-xm-VIc" firstAttribute="leading" secondItem="OKb-8t-lMa" secondAttribute="trailing" constant="8" id="BgT-S0-gFt"/>
+                            <constraint firstItem="ngt-xm-VIc" firstAttribute="width" secondItem="OKb-8t-lMa" secondAttribute="width" multiplier="2" priority="750" id="K7s-aY-a2i"/>
+                            <constraint firstItem="ngt-xm-VIc" firstAttribute="top" secondItem="7Uy-HJ-ob3" secondAttribute="top" constant="8" id="L1J-mz-sMU"/>
+                            <constraint firstItem="OKb-8t-lMa" firstAttribute="top" secondItem="7Uy-HJ-ob3" secondAttribute="top" constant="8" id="QGx-Px-4Et"/>
+                            <constraint firstItem="7Uy-HJ-ob3" firstAttribute="bottom" secondItem="OKb-8t-lMa" secondAttribute="bottom" constant="8" id="VZ1-Wr-gYV"/>
+                            <constraint firstItem="OKb-8t-lMa" firstAttribute="leading" secondItem="7Uy-HJ-ob3" secondAttribute="leading" constant="8" id="Yre-NR-Ccy"/>
+                            <constraint firstItem="7Uy-HJ-ob3" firstAttribute="trailing" secondItem="ngt-xm-VIc" secondAttribute="trailing" constant="8" id="atd-cc-14X"/>
+                            <constraint firstItem="7Uy-HJ-ob3" firstAttribute="bottom" secondItem="ngt-xm-VIc" secondAttribute="bottom" constant="8" id="gcO-Ya-PV6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7Uy-HJ-ob3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APC-bM-nRM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>

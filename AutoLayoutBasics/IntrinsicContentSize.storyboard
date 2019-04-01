@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S1c-vu-zH2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VdC-JE-LXV">
+            <objects>
+                <viewController id="S1c-vu-zH2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4bl-wg-OK9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The first label is getting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekg-X7-75i">
+                                <rect key="frame" x="16" y="52" width="179.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A long label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jK-6V-BoZ">
+                                <rect key="frame" x="211.5" y="52" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="An even longer label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQl-qA-2td">
+                                <rect key="frame" x="317.5" y="52" width="41.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ekg-X7-75i" firstAttribute="leading" secondItem="Scb-FO-cgy" secondAttribute="leading" constant="16" id="0sI-Ip-JXD"/>
+                            <constraint firstAttribute="trailing" secondItem="lQl-qA-2td" secondAttribute="trailing" constant="16" id="30V-Rw-SuM"/>
+                            <constraint firstItem="lQl-qA-2td" firstAttribute="leading" secondItem="Ekg-X7-75i" secondAttribute="trailing" constant="16" id="DMN-gI-YOt"/>
+                            <constraint firstItem="lQl-qA-2td" firstAttribute="top" secondItem="6jK-6V-BoZ" secondAttribute="top" id="Xpf-0G-Wg2"/>
+                            <constraint firstItem="lQl-qA-2td" firstAttribute="leading" secondItem="6jK-6V-BoZ" secondAttribute="trailing" constant="16" id="Y6o-cP-bhn"/>
+                            <constraint firstItem="6jK-6V-BoZ" firstAttribute="top" secondItem="Ekg-X7-75i" secondAttribute="top" id="aCj-9Q-a8F"/>
+                            <constraint firstItem="Ekg-X7-75i" firstAttribute="top" secondItem="Scb-FO-cgy" secondAttribute="top" constant="32" id="gee-FW-c6F"/>
+                            <constraint firstItem="6jK-6V-BoZ" firstAttribute="leading" secondItem="Ekg-X7-75i" secondAttribute="trailing" constant="16" id="p6v-kY-QvX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Scb-FO-cgy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WyP-Em-Dd1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="131"/>
+        </scene>
+    </scenes>
+</document>
