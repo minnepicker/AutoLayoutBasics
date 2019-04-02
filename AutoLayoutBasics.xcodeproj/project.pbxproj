@@ -19,6 +19,7 @@
 		C0A0F5F9224E9DF500D353C9 /* DifferingHeightsViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */; };
 		C0B5C16722500626001889BF /* Inequalities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B5C16622500626001889BF /* Inequalities.storyboard */; };
 		C0E9AA2222529621008E8BE2 /* Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E9AA2122529621008E8BE2 /* Form.storyboard */; };
+		C0E9AA242253CBEA008E8BE2 /* BasicStackViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E9AA232253CBEA008E8BE2 /* BasicStackViews.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DifferingHeightsViews.storyboard; sourceTree = "<group>"; };
 		C0B5C16622500626001889BF /* Inequalities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inequalities.storyboard; sourceTree = "<group>"; };
 		C0E9AA2122529621008E8BE2 /* Form.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Form.storyboard; sourceTree = "<group>"; };
+		C0E9AA232253CBEA008E8BE2 /* BasicStackViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicStackViews.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				C0A0F5F4224E90DD00D353C9 /* LayoutGuides.storyboard */,
 				C0A0F5F6224E9B4900D353C9 /* EqualWidthViews.storyboard */,
 				C0E9AA2122529621008E8BE2 /* Form.storyboard */,
+				C0E9AA232253CBEA008E8BE2 /* BasicStackViews.storyboard */,
 				C0A0F5F8224E9DF500D353C9 /* DifferingHeightsViews.storyboard */,
 				C0A0F5E9224E86AE00D353C9 /* Assets.xcassets */,
 				C0A0F5EB224E86AE00D353C9 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				C0E9AA2222529621008E8BE2 /* Form.storyboard in Resources */,
 				C0B5C16722500626001889BF /* Inequalities.storyboard in Resources */,
 				C0A0F5EA224E86AE00D353C9 /* Assets.xcassets in Resources */,
+				C0E9AA242253CBEA008E8BE2 /* BasicStackViews.storyboard in Resources */,
 				C0A0F5E8224E86AC00D353C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
